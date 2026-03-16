@@ -72,13 +72,13 @@ export default function Home() {
     <main>
       {/* HERO */}
       <section className="bg-[#f9f9f7]">
-        <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
-          <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
+        <div className="mx-auto max-w-6xl px-6 pt-10 pb-20 md:pt-14 md:pb-24">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-14 items-center">
             <div>
-              <p className="text-[11px] font-semibold tracking-[0.2em] uppercase text-[#8a8578] mb-6">
-                A Video Podcast
+              <p className="text-[11px] font-semibold tracking-[0.2em] uppercase text-[#8a8578] mb-4">
+                A Video Podcast from Round Top, Texas
               </p>
-              <h1 className="text-5xl md:text-7xl font-medium text-[#1a1815] mb-6 leading-[1.05]">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-medium text-[#1a1815] mb-5 leading-[1.05]">
                 Inside<br />Round Top
               </h1>
               <div className="w-12 h-[1px] bg-[#1a1815] mb-6" />
@@ -124,6 +124,32 @@ export default function Home() {
                 />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* STAT BAR */}
+      <section className="bg-[#1a1815] py-5">
+        <div className="mx-auto max-w-6xl px-6 flex flex-wrap justify-center gap-x-10 gap-y-2 text-center">
+          <div>
+            <span className="text-white font-['Playfair_Display'] text-xl font-medium">48</span>
+            <span className="text-white/50 text-xs tracking-wider uppercase ml-2">Venues</span>
+          </div>
+          <div>
+            <span className="text-white font-['Playfair_Display'] text-xl font-medium">1,500+</span>
+            <span className="text-white/50 text-xs tracking-wider uppercase ml-2">Vendors</span>
+          </div>
+          <div>
+            <span className="text-white font-['Playfair_Display'] text-xl font-medium">11</span>
+            <span className="text-white/50 text-xs tracking-wider uppercase ml-2">Miles</span>
+          </div>
+          <div>
+            <span className="text-white font-['Playfair_Display'] text-xl font-medium">100K+</span>
+            <span className="text-white/50 text-xs tracking-wider uppercase ml-2">Visitors</span>
+          </div>
+          <div>
+            <span className="text-white font-['Playfair_Display'] text-xl font-medium">1968</span>
+            <span className="text-white/50 text-xs tracking-wider uppercase ml-2">Est.</span>
           </div>
         </div>
       </section>
